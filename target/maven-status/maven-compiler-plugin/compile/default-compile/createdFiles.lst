@@ -1,0 +1,6 @@
+com\amazonprime\clone\servlets\WatchServlet.class
+com\amazonprime\clone\servlets\ProfileServlet.class
+com\amazonprime\clone\servlets\SearchServlet.class
+com\amazonprime\clone\servlets\DetailsServlet.class
+com\amazonprime\clone\servlets\HomeServlet.class
+com\amazonprime\clone\servlets\BrowseServlet.class

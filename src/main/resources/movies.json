@@ -1,0 +1,94 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Lord of the Rings: The Rings of Power",
+      "year": 2022,
+      "rating": 8.5,
+      "duration": "50-70 min",
+      "seasons": 1,
+      "episodes": 8,
+      "genre": ["Fantasy", "Drama", "Adventure"],
+      "description": "Epic drama set thousands of years before the events of J.R.R. Tolkien's The Hobbit and The Lord of the Rings.",
+      "director": "J. A. Bayona, Wayne Che Yip",
+      "cast": ["Morfydd Clark", "Robert Aramayo", "Owain Arthur", "Nazanin Boniadi"],
+      "maturityRating": "TV-14",
+      "languages": ["English", "Spanish", "French"],
+      "imageUrl": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=800&auto=format&fit=crop",
+      "trailerUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": 2,
+      "title": "The Boys",
+      "year": 2019,
+      "rating": 8.7,
+      "duration": "55-68 min",
+      "seasons": 3,
+      "episodes": 24,
+      "genre": ["Action", "Comedy", "Drama"],
+      "description": "A group of vigilantes set out to take down corrupt superheroes who abuse their superpowers.",
+      "director": "Eric Kripke",
+      "cast": ["Karl Urban", "Jack Quaid", "Antony Starr", "Erin Moriarty"],
+      "maturityRating": "TV-MA",
+      "languages": ["English"],
+      "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&auto=format&fit=crop",
+      "trailerUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    },
+    {
+      "id": 3,
+      "title": "Jack Ryan",
+      "year": 2018,
+      "rating": 8.2,
+      "duration": "48-62 min",
+      "seasons": 4,
+      "episodes": 30,
+      "genre": ["Action", "Thriller", "Drama"],
+      "description": "Up-and-coming CIA analyst Jack Ryan uncovers a pattern in terrorist communication.",
+      "director": "Carlton Cuse, Graham Roland",
+      "cast": ["John Krasinski", "Wendell Pierce", "Abbie Cornish"],
+      "maturityRating": "TV-MA",
+      "languages": ["English", "Russian"],
+      "imageUrl": "https://images.unsplash.com/photo-1595769812725-4c6564f7528b?w=800&auto=format&fit=crop",
+      "trailerUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+    },
+    {
+      "id": 4,
+      "title": "The Marvelous Mrs. Maisel",
+      "year": 2017,
+      "rating": 8.7,
+      "duration": "48-70 min",
+      "seasons": 5,
+      "episodes": 43,
+      "genre": ["Comedy", "Drama"],
+      "description": "A New York housewife discovers she has a knack for stand-up comedy.",
+      "director": "Amy Sherman-Palladino",
+      "cast": ["Rachel Brosnahan", "Tony Shalhoub", "Alex Borstein"],
+      "maturityRating": "TV-MA",
+      "languages": ["English"],
+      "imageUrl": "https://images.unsplash.com/photo-1517602302552-471fe67acf66?w=800&auto=format&fit=crop",
+      "trailerUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Prime Originals",
+      "movies": [1, 2, 4]
+    },
+    {
+      "name": "Action & Adventure",
+      "movies": [1, 2, 3]
+    },
+    {
+      "name": "Award-Winning Shows",
+      "movies": [2, 4]
+    },
+    {
+      "name": "Recently Added",
+      "movies": [1, 3]
+    },
+    {
+      "name": "Trending Now",
+      "movies": [1, 2, 3, 4]
+    }
+  ]
+}
