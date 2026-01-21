@@ -1,4 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%
+    String ctx = request.getContextPath();
+%>
+
 <footer class="prime-footer">
     <div class="footer-top">
         <div class="footer-section">
@@ -10,7 +14,7 @@
                 <li><a href="#">Terms of Use</a></li>
             </ul>
         </div>
-        
+
         <div class="footer-section">
             <h3>Categories</h3>
             <ul>
@@ -20,17 +24,17 @@
                 <li><a href="#">Kids</a></li>
             </ul>
         </div>
-        
+
         <div class="footer-section">
             <h3>Account</h3>
             <ul>
-                <li><a href="profile">Your Account</a></li>
+                <li><a href="<%=ctx%>/profile">Your Account</a></li>
                 <li><a href="#">Watchlist</a></li>
                 <li><a href="#">Purchase History</a></li>
                 <li><a href="#">Parental Controls</a></li>
             </ul>
         </div>
-        
+
         <div class="footer-section">
             <h3>Connect</h3>
             <div class="social-links">
@@ -39,6 +43,7 @@
                 <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
             </div>
+
             <div class="app-download">
                 <p>Get the App</p>
                 <div class="app-buttons">
@@ -54,16 +59,18 @@
             </div>
         </div>
     </div>
-    
+
     <div class="footer-bottom">
         <div class="footer-logo">
             <i class="fab fa-amazon"></i>
             <span>prime video</span>
         </div>
+
         <div class="footer-info">
             <p>&copy; 1996-2024, Amazon.com, Inc. or its affiliates. All rights reserved.</p>
             <p>This is an educational clone project and is not affiliated with Amazon Prime Video.</p>
         </div>
+
         <div class="footer-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
