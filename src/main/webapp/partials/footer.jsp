@@ -1,7 +1,4 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%
-    String ctx = request.getContextPath();
-%>
 
 <footer class="prime-footer">
     <div class="footer-top">
@@ -28,7 +25,7 @@
         <div class="footer-section">
             <h3>Account</h3>
             <ul>
-                <li><a href="<%=ctx%>/profile">Your Account</a></li>
+                <li><a href="${pageContext.request.contextPath}/profile">Your Account</a></li>
                 <li><a href="#">Watchlist</a></li>
                 <li><a href="#">Purchase History</a></li>
                 <li><a href="#">Parental Controls</a></li>
@@ -47,14 +44,8 @@
             <div class="app-download">
                 <p>Get the App</p>
                 <div class="app-buttons">
-                    <a href="#" class="app-btn">
-                        <i class="fab fa-apple"></i>
-                        <span>App Store</span>
-                    </a>
-                    <a href="#" class="app-btn">
-                        <i class="fab fa-google-play"></i>
-                        <span>Google Play</span>
-                    </a>
+                    <a href="#" class="app-btn"><i class="fab fa-apple"></i><span>App Store</span></a>
+                    <a href="#" class="app-btn"><i class="fab fa-google-play"></i><span>Google Play</span></a>
                 </div>
             </div>
         </div>
