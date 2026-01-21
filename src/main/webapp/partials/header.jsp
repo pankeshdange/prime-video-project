@@ -1,23 +1,20 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%
-    String ctx = request.getContextPath();
-%>
 
 <header class="prime-header">
     <nav class="navbar">
         <div class="nav-left">
-            <a href="<%=ctx%>/home" class="logo">
+            <a href="${pageContext.request.contextPath}/home" class="logo">
                 <i class="fab fa-amazon"></i>
                 <span class="logo-text">prime video</span>
             </a>
 
             <div class="nav-links">
-                <a href="<%=ctx%>/home" class="nav-link">
+                <a href="${pageContext.request.contextPath}/home" class="nav-link">
                     <i class="fas fa-home"></i>
                     <span>Home</span>
                 </a>
 
-                <a href="<%=ctx%>/browse" class="nav-link">
+                <a href="${pageContext.request.contextPath}/browse" class="nav-link">
                     <i class="fas fa-compass"></i>
                     <span>Browse</span>
                 </a>
@@ -35,7 +32,7 @@
         </div>
 
         <div class="nav-right">
-            <form action="<%=ctx%>/search" method="get" class="search-form">
+            <form action="${pageContext.request.contextPath}/search" method="get" class="search-form">
                 <div class="search-container">
                     <input type="text"
                            name="q"
@@ -62,7 +59,7 @@
                     </button>
 
                     <div class="dropdown-menu">
-                        <a href="<%=ctx%>/profile" class="dropdown-item">
+                        <a href="${pageContext.request.contextPath}/profile" class="dropdown-item">
                             <i class="fas fa-user-circle"></i>
                             <span>Your Profile</span>
                         </a>
@@ -93,7 +90,6 @@
         </button>
     </nav>
 
-    <!-- Mobile Menu -->
     <div class="mobile-menu">
         <div class="mobile-menu-header">
             <h3>Menu</h3>
@@ -103,22 +99,22 @@
         </div>
 
         <div class="mobile-menu-links">
-            <a href="<%=ctx%>/home" class="mobile-link">
+            <a href="${pageContext.request.contextPath}/home" class="mobile-link">
                 <i class="fas fa-home"></i>
                 <span>Home</span>
             </a>
 
-            <a href="<%=ctx%>/browse" class="mobile-link">
+            <a href="${pageContext.request.contextPath}/browse" class="mobile-link">
                 <i class="fas fa-compass"></i>
                 <span>Browse</span>
             </a>
 
-            <a href="<%=ctx%>/search" class="mobile-link">
+            <a href="${pageContext.request.contextPath}/search" class="mobile-link">
                 <i class="fas fa-search"></i>
                 <span>Search</span>
             </a>
 
-            <a href="<%=ctx%>/profile" class="mobile-link">
+            <a href="${pageContext.request.contextPath}/profile" class="mobile-link">
                 <i class="fas fa-user"></i>
                 <span>Profile</span>
             </a>
