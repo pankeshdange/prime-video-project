@@ -80,7 +80,7 @@
         <!-- Prime Originals -->
         <section class="content-section">
             <div class="section-header">
-                <h2 class="section-title">Prime Originals</h2>
+                <h2 class="section-title">Prime Original</h2>
                 <a href="browse" class="see-all">Browse All <i class="fas fa-chevron-right"></i></a>
             </div>
             <div class="carousel">
