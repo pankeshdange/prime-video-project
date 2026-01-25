@@ -6,15 +6,15 @@
   <artifactId>amazon-prime-clone</artifactId>
   <version>2.0.0</version>
   <packaging>war</packaging>
-  <name>amazon-prime</name>  <!-- Changed to match your project name -->
+  <name>prime-app</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
-    <!-- SonarQube properties -->
-    <sonar.projectKey>hotstar</sonar.projectKey>
-    <sonar.projectName>hotstar</sonar.projectName>
+    <!-- SonarQube properties - will create project automatically -->
+    <sonar.projectKey>prime-app</sonar.projectKey>
+    <sonar.projectName>prime-app</sonar.projectName>
   </properties>
 
   <dependencies>
