@@ -6,12 +6,15 @@
   <artifactId>amazon-prime-clone</artifactId>
   <version>2.0.0</version>
   <packaging>war</packaging>
-  <name>Amazon Prime Video Clone</name>
+  <name>amazon-prime</name>  <!-- Changed to match your project name -->
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
+    <!-- SonarQube properties -->
+    <sonar.projectKey>hotstar</sonar.projectKey>
+    <sonar.projectName>hotstar</sonar.projectName>
   </properties>
 
   <dependencies>
@@ -48,6 +51,12 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.3.2</version>
+      </plugin>
+      <!-- Add SonarQube Maven Plugin -->
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.9.1.2184</version>
       </plugin>
     </plugins>
   </build>
