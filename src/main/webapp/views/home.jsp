@@ -19,7 +19,7 @@
             <div class="hero-content">
                 <h1>${featuredTitle}</h1>
                 <div class="meta-info">
-                    <span class="meta-badge">Prime Original</span>
+                    <span class="meta-badge">Amazon Prime Original</span>
                     <span>${featuredYear}</span>
                     <span>${featuredRating}</span>
                     <span>${featuredGenre}</span>
