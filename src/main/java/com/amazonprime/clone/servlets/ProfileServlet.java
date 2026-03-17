@@ -16,8 +16,8 @@ public class ProfileServlet extends HttpServlet {
         
         // User profile data
         Map<String, Object> user = new HashMap<>();
-        user.put("name", "Kastro");
-        user.put("email", "kastro@example.com");
+        user.put("name", "pankesh");
+        user.put("email", "pankesh@example.com");
         user.put("plan", "Prime Video");
         user.put("planType", "Monthly");
         user.put("nextBilling", "April 15, 2024");
