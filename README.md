@@ -46,6 +46,7 @@ o	Generate .war file
 7.	Automated Deployment
 o	Deploy .war file to Tomcat server
 o	Application becomes live automatically
+<img width="938" height="605" alt="image" src="https://github.com/user-attachments/assets/1f1cd7a1-08bb-440e-81a2-bf2bc67c2971" />
 
 ________________________________________
 
@@ -66,6 +67,8 @@ ________________________________________
 🔍 Step 1.2: Go to EC2 Service
 •	Search EC2 in the search bar
 •	Click on: Amazon EC2
+<img width="940" height="668" alt="image" src="https://github.com/user-attachments/assets/9906393d-92c3-4cc9-bb97-da835454fffb" />
+
  
 🖥️ Step 1.3: Launch Instance
 •	Click Launch Instance
@@ -75,6 +78,8 @@ ________________________________________
 	t2.medium ✅ (recommended)
 OR
 	t2.large (if you want more performance)
+<img width="940" height="619" alt="image" src="https://github.com/user-attachments/assets/70f1f930-5daa-483e-94a9-59e2a03623b3" />
+
  
 4)	Create Key Pair (.pem file)
 •	Click Create new key pair
@@ -84,7 +89,9 @@ OR
 •	Click Create
 👉 File will download automatically in (download folder)
 ⚠️ Keep it safe (very important)
- 
+
+ <img width="940" height="690" alt="image" src="https://github.com/user-attachments/assets/8c2f4f14-1cd1-4774-aa0f-2a360d0be7b2" />
+
 5)	: Configure Network Settings
 Allow these ports:
 •	✅ SSH (22) → for login
@@ -94,6 +101,7 @@ Allow these ports:
 
 6)	: Configure Storage
 •	Set: 20 GB
+<img width="940" height="593" alt="image" src="https://github.com/user-attachments/assets/aaf6e1c2-42e4-4f15-8e63-7296350e832c" />
 
 
 
